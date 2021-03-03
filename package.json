@@ -1,0 +1,95 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^2.4.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-firebase/app": "^10.4.0",
+    "@react-native-firebase/firestore": "^10.4.0",
+    "@react-navigation/bottom-tabs": "^5.11.2",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.2",
+    "expo": "~38.0.8",
+    "expo-app-loading": "^1.0.1",
+    "expo-constants": "~9.1.1",
+    "expo-notifications": "~0.3.3",
+    "expo-permissions": "~9.0.1",
+    "expo-status-bar": "^1.0.2",
+    "firebase": "7.9.0",
+    "moment": "^2.29.0",
+    "moment-timezone": "^0.5.31",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-helmet": "^6.1.0",
+    "react-moment": "^0.9.7",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-alarm-notification": "^1.7.0",
+    "react-native-elements": "^2.3.1",
+    "react-native-firebase": "^5.6.0",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-htmlview": "^0.16.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-modal-datetime-picker": "^8.9.3",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-render-html": "^5.0.1",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-vector-icons": "^7.0.0",
+    "react-native-webview": "^9.4.0",
+    "react-navigation-latest": "npm:react-navigation@^4.4.3",
+    "react-script-tag": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true,
+  "expo": {
+    "name": "Expo Firebase Auth",
+    "slug": "expo-firebase-auth",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "facebookScheme": "fb684399708713036",
+    "facebookAppId": "684399708713036",
+    "facebookDisplayName": "Expo-firebase-auth",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expofirebaseauth",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.491981381926-q4p61hua940gna95mf1ps2j2d9952b0s"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "com.expofirebaseauth",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}

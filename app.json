@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MEDIREM",
+    "slug": "MEDIREM",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon123.png",
+    "splash": {
+      "image": "./assets/icon123.png",
+      "resizeMode":"contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.harsha4499.MEDIREM"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.harsha4499.MEDIREM",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
